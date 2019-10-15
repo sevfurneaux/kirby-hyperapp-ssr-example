@@ -1,0 +1,17 @@
+{
+  "name": "kirby-hyperapp-example",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hyperapp/html": "^1.1.1",
+    "@hyperapp/render": "^2.1.0",
+    "rollup": "^0.56.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.0.3",
+    "classnames": "^2.2.6"
+  },
+  "scripts": {
+    "start": "echo && echo '🛠 starting development…' && rollup ./src/browser.js --name HyperappSSR -f iife -c --watch --file ./assets/js/browser.js  "
+  }
+}
